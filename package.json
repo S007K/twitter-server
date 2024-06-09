@@ -1,0 +1,20 @@
+{
+  "name": "twitter-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "S007K",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index",
+    "build": "tsc -p .",
+    "dev": "npx tsc-watch --onSuccess \"npm start \""
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1"
+  }
+}
